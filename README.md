@@ -1,6 +1,6 @@
 # 🎮 GameStore - Ecommerce Gamer
 
-## 📌 Descripción
+##  Descripción
 
 GameStore es una aplicación web de comercio electrónico orientada a la venta de productos gamer y tecnología.
 
@@ -10,7 +10,7 @@ Fue desarrollado con React aplicando componentes reutilizables, Context API, Rea
 
 ---
 
-# 🚀 Tecnologías utilizadas
+#  Tecnologías utilizadas
 
 - React + Vite
 - JavaScript
@@ -28,7 +28,7 @@ Fue desarrollado con React aplicando componentes reutilizables, Context API, Rea
 
 #  Funcionalidades principales
 
-## 🛒 Carrito de compras
+##  Carrito de compras
 
 - Agregar productos al carrito.
 - Modificar cantidades.
@@ -38,7 +38,7 @@ Fue desarrollado con React aplicando componentes reutilizables, Context API, Rea
 
 ---
 
-## 🔐 Autenticación de usuarios
+##  Autenticación de usuarios
 
 - Registro de usuarios.
 - Inicio de sesión.
@@ -50,7 +50,7 @@ Las secciones administrativas requieren un usuario autenticado.
 
 ---
 
-## 📦 Gestión de productos (CRUD)
+##  Gestión de productos (CRUD)
 
 Panel de administración:
 
@@ -63,7 +63,7 @@ Panel de administración:
 
 ---
 
-## 🔎 Búsqueda de productos
+##  Búsqueda de productos
 
 Incluye búsqueda dinámica:
 
@@ -72,7 +72,7 @@ Incluye búsqueda dinámica:
 
 ---
 
-## 📱 Diseño responsive
+##  Diseño responsive
 
 La aplicación utiliza:
 
@@ -82,7 +82,7 @@ La aplicación utiliza:
 
 ---
 
-## ⚡ Optimización y experiencia de usuario
+##  Optimización y experiencia de usuario
 
 Incluye:
 
@@ -93,9 +93,27 @@ Incluye:
 
 ---
 
-# 🛠️ Instalación del proyecto
+#  Instalación del proyecto
 
 ## 1. Clonar repositorio
-
 ```bash
 git clone URL_DEL_REPOSITORIO
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Autor:
+-          Nicolás Mac Gaul       
+- Proyecto Final realizado para el curso de React JS - Talento Tech 
