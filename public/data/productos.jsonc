@@ -1,0 +1,31 @@
+/**
+[
+    {
+        "id": 1,
+        "nombre": "Mouse Gamer",
+        "precio": 35599.99,
+        "descripcion": "Mouse RGB",
+        "imagen": "/data/img/mouse.jpg",
+        "destacado": true,
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Teclado Mecánico",
+        "precio": 25000,
+        "descripcion": "Switches Red",
+        "imagen": "/data/img/teclado.jpg",
+        "destacado": true,
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "nombre": "Auriculares",
+        "precio": 45500,
+        "descripcion": "Sonido envolvente",
+        "imagen": "/data/img/auris.jpg",
+        "destacado": false,
+        "stock": 10
+    }
+]
+    */
