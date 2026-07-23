@@ -134,7 +134,7 @@ function DetalleProducto() {
         <Row className="justify-content-center">
 
 
-          <Col xs={12} sm={10} md={6} lg={6}>
+          <Col xs={12} md={7} lg={5}>
 
 
             <Card
