@@ -6,6 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
+    margin: 0;
+  padding: 0;
 }
 
 /* Hace que la app ocupe toda la pantalla */
@@ -15,16 +17,21 @@ body {
   flex-direction: column;
 }
 
-/* Header */
+/*
 header {
   background-color: #222;
   color: white;
   padding: 20px;
   text-align: center;
 }
+*/
+.header{
+    padding:0 !important;
+    margin:0 !important;
+}
 
 nav {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 nav a {
@@ -37,7 +44,6 @@ nav a {
 nav a:hover {
   color: #1976d2;
 }
-
 /* Contenido */
 main {
   flex: 1; /* Empuja el footer hacia abajo */

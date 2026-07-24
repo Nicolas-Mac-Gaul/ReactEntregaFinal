@@ -1,42 +1,62 @@
-.header {
-  background: #222;
-  padding: 15px;
+.header{
+    .header{
+    padding:0;
+    margin:0;
+    border:none;
+}
 }
 
-.header ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
+.navbar{
+    margin:0 !important;
 }
 
-.header a {
-  color: white;
-  text-decoration: none;
+.navLink{
+    color:white !important;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    transition:.2s;
 }
 
-.badge {
-  background: crimson;
-  color: white;
-  border-radius: 50%;
-  padding: 2px 7px;
-  margin-left: 6px;
-  font-size: 12px;
+.navLink:hover{
+    color:#00bfff !important;
 }
 
-/*Contacto Boton*/
+.badge{
+    background:crimson;
+    color:white;
+    border-radius:50%;
+    padding:2px 7px;
+    margin-left:6px;
+    font-size:12px;
+}
+
 .contactoBtn{
     background:none;
     border:none;
     color:white;
-    cursor:pointer;
     display:flex;
     align-items:center;
-    gap:5px;
-    font-size:16px;
-    transform: translateY(-9px);
+    gap:6px;
+    padding:.5rem 1rem;
+    cursor:pointer;
+    transition:.2s;
 }
 
 .contactoBtn:hover{
     color:#00bfff;
+}
+
+@media (max-width:991px){
+
+    .navLink{
+        padding:.7rem 0;
+    }
+
+    .contactoBtn{
+        width:100%;
+        justify-content:flex-start;
+        padding:.7rem 0;
+    }
+
 }
